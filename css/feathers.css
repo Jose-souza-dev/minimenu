@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Ft01';
+    src: url(../fonts/Oswald-VariableFont_wght.ttf);
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Ft01';
+}
+p{
+    font-family: 'Ft01';
+    font-weight: normal;
+    color: #575757;
+}
+a{
+    font-family: 'Ft01';
+}

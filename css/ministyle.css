@@ -1,0 +1,107 @@
+@media(max-width: 500px){
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+/*----------------------------menu-------------------------------------*/
+header{
+    width: 100%;
+    height: 40px;
+    background-color: #069;
+    position: absolute;
+    margin:0 0 20px 0;
+}
+
+#btn-menu{
+    width: 30px;
+    margin: 10px;
+    border: none;
+    background-color: #069;
+}
+#img-menu{
+    width: 25px;
+}
+
+nav{
+    width: 100%;
+}
+.one-list{
+    width: 100%;
+}
+.item-menu{
+    width: 100%;
+    height: 40px;
+    background-color: rgba(17, 17, 17, 0.815);
+    list-style: none;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    padding: 8px 0;
+
+}
+
+.item-menu:hover{
+    width: 100%;
+    height: 40px;
+    background-color: rgba(78, 78, 78, 0.815);
+    list-style: none;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    padding: 8px 0;
+
+}
+
+a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 16px;
+    text-align: center;
+}
+
+.esconder{
+    display: none;
+}
+/*--------------------------------------------------------------------*/
+    main{
+        width: 96%;
+        height: 100vh;
+        margin: 10px 2% 0 2%;
+    }
+    #banner{
+        width: 100%;
+        height: 250px;
+        background-color: #ffffff;
+        background-image: url('../img/banner.png');
+        background-size: 100%;
+        margin-top: 10px;
+        border-radius: 30px 0 30px 0;
+    }
+
+    section{
+        margin: 10px 0;
+    }
+    .border-baixo{
+        border-bottom: 1px solid #575757;
+    }
+    p{
+        text-align: justify;
+    }
+    .centro{
+        text-align: center;
+    }
+
+    footer{
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        padding: 10px 0 0 0;
+    }
+
+
+
+
+
+
+
+}/*fim da media*/
